@@ -36,6 +36,28 @@
             android:layout_marginBottom="8dp"
             android:textSize="12sp"
             tools:text="Contenido de ejemplo"/>
+        <TextView
+            android:id="@+id/text_widget2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="12sp"
+            tools:text="Contenido de ejemplo"/>
+
+        <TextView
+            android:id="@+id/text_widget3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="12sp"
+            tools:text="Contenido de ejemplo"/>
+
+        <ListView
+            android:id="@+id/widgetCollectionList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
 
     </LinearLayout>
 
